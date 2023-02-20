@@ -32,6 +32,10 @@ func TestJavascriptLangFileGeneration(t *testing.T) {
 	getRunner(t).runTest(t, javascriptRulesPath+"lang/file_generation")
 }
 
+func TestJavascriptExpressExternalFileUpload(t *testing.T) {
+	getRunner(t).runTest(t, javascriptRulesPath+"express/external_file_upload")
+}
+
 func TestJavascriptExpressExposedDirListing(t *testing.T) {
 	getRunner(t).runTest(t, javascriptRulesPath+"express/exposed_dir_listing")
 }
